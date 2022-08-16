@@ -9,10 +9,10 @@
 
 Download script from this repository and start in command line
 
-'''python
->>> python generator.py
+```
+python generator.py
 {generated text}
-'''
+```
 
 The length of the generated hint is 17 by default, you can change it in the script itself
 
