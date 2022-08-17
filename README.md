@@ -61,10 +61,8 @@ Version 0.2:
 ![rdm-figure](img/7.png)
 
 # <p align="center">For more example going on:</p>
-<p align="center">
-	<h4 align="center">
-		<a href="https://twitter.com/wine_ineff" target='_blank'>Twitter</a><br>
-		<a href="https://www.instagram.com/wine_ineff" target='_blank'>Instagram</a><br>
-		<a href="https://www.reddit.com/user/WiNE-iNEFF" target='_blank'>Reddit</a>
-	</h4>
-</p>
+<h3 align="center">
+	<a href="https://twitter.com/wine_ineff" target='_blank'>Twitter</a><br>
+	<a href="https://www.instagram.com/wine_ineff" target='_blank'>Instagram</a><br>
+	<a href="https://www.reddit.com/user/WiNE-iNEFF" target='_blank'>Reddit</a>
+</h3>
