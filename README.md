@@ -5,7 +5,7 @@
     <p>Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion and etc neural networks.</p>
 </h3>
 
-## Quick start
+## <p align="center">Quick start</p>
 
 Download script from this repository and start in command line
 ```
