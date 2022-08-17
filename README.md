@@ -3,7 +3,7 @@
 </h2>
 <h3 align="center">
     <p>Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion and etc neural networks.</p>
-</h3>
+</h3><br>
 
 ## <p align="center">Quick start</p>
 
@@ -14,7 +14,7 @@ python gen02.py
 ```
 The length of the generated hint is 17 by default, you can change it in the script itself
 
-## Example
+## <p align="center">Examole</p>
 
 Version 0.1:
 1. Stable Diffusion
@@ -60,7 +60,7 @@ Version 0.2:
 ```
 ![rdm-figure](img/7.png)
 
-# For more example going on:
+# <p align="center">For more example going on:</p>
 <p align="center">
 	<a href="https://twitter.com/wine_ineff" target='_blank'>Twitter</a><br>
 	<a href="https://www.instagram.com/wine_ineff" target='_blank'>Instagram</a><br>
