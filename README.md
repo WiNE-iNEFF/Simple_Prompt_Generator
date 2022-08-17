@@ -62,14 +62,7 @@ Version 0.2:
 
 # For more example going on:
 <p align="center">
-<<<<<<< HEAD
 	<a href="https://twitter.com/wine_ineff" target='_blank'>Twitter</a><br>
 	<a href="https://www.instagram.com/wine_ineff" target='_blank'>Instagram</a><br>
 	<a href="https://www.reddit.com/user/WiNE-iNEFF" target='_blank'>Reddit</a>
 </p>
-=======
-	<a href="https://twitter.com/wine_ineff" target='_blank'>Twitter   </a><br>
-	<a href="https://www.instagram.com/wine_ineff" target='_blank'>  Instagram  </a><br>
-	<a href="https://www.reddit.com/user/WiNE-iNEFF" target='_blank'>   Reddit</a>
-</p>
->>>>>>> 9a4ba163f58684356cfbebcc6e0dc0c5b811cb4a
