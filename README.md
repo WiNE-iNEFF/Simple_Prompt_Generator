@@ -14,7 +14,7 @@ python gen02.py
 ```
 The length of the generated hint is 17 by default, you can change it in the script itself
 
-## <p align="center">Examole</p>
+## <p align="center">Example</p>
 
 Version 0.1:
 1. Stable Diffusion
@@ -62,7 +62,7 @@ Version 0.2:
 
 # <p align="center">For more example going on:</p>
 <p align="center">
-	<a href="https://twitter.com/wine_ineff" target='_blank'>Twitter</a><br>
+	<h6><a href="https://twitter.com/wine_ineff" target='_blank'>Twitter</a></h6><br>
 	<a href="https://www.instagram.com/wine_ineff" target='_blank'>Instagram</a><br>
 	<a href="https://www.reddit.com/user/WiNE-iNEFF" target='_blank'>Reddit</a>
 </p>
