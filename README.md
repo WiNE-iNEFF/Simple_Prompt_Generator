@@ -36,7 +36,7 @@ The length of the generated hint is 17 by default, you can change it in the scri
 
 # For more example going on:
 <p>
-	<a href="https://twitter.com/wine_ineff" target='_blank' style="display: inline-block;">Twitter</a><br>
-	<a href="https://www.instagram.com/wine_ineff" target='_blank' style="display: inline-block;">Instagram</a><br>
-	<a href="https://www.reddit.com/user/WiNE-iNEFF" target='_blank' style="display: inline-block;">Reddit</a>
+	<a align="left" href="https://twitter.com/wine_ineff" target='_blank'>Twitter</a><br>
+	<a align="center" href="https://www.instagram.com/wine_ineff" target='_blank'>Instagram</a><br>
+	<a align="right" href="https://www.reddit.com/user/WiNE-iNEFF" target='_blank'>Reddit</a>
 </p>
