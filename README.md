@@ -35,8 +35,8 @@ The length of the generated hint is 17 by default, you can change it in the scri
 ![rdm-figure](img/3.png)
 
 # For more example going on:
-<p>
-	<a align="left" href="https://twitter.com/wine_ineff" target='_blank'>Twitter</a><br>
-	<a align="center" href="https://www.instagram.com/wine_ineff" target='_blank'>Instagram</a><br>
-	<a align="right" href="https://www.reddit.com/user/WiNE-iNEFF" target='_blank'>Reddit</a>
+<p align="center">
+	<a href="https://twitter.com/wine_ineff" target='_blank'>Twitter   </a><br>
+	<a href="https://www.instagram.com/wine_ineff" target='_blank'>  Instagram  </a><br>
+	<a href="https://www.reddit.com/user/WiNE-iNEFF" target='_blank'>   Reddit</a>
 </p>
