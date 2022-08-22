@@ -12,7 +12,7 @@ You can download scripts from this repository and start in command line:
 python generator.py
 python gen02.py
 ```
-or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator/" target="_blank">website</a>
+or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator/" target="_blank">website</a> or <a href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator/releases" target="_blank">app</a>
 
 ## <p align="center">Example</p>
 
