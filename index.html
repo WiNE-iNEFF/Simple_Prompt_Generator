@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+   <title>Simple  Prompt Generator</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js"></script> 
+	<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js"></script>
+</head>
+<body onload="brython()"> 
+
+	<div class="container text-center" style="margin-top: 10%;">
+		<h1>Simple Prompt Generator<h6>v0.1</h6></h1>
+		<h5>Simple prompt generation script <br>for Midjourney, DALLe, Stable and <br>Disco diffusion and etc neural networks.</h5>
+		<p>More examples in <a class='link-info' href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator" target="_blank">Github</a></p>
+		<div class="row text-center" style="margin-left: 23%;">
+			<a class="col-2" href="https://twitter.com/wine_ineff" target="_blank">
+				<i class="bi bi-twitter text-info" style="font-size: 2rem;" role="img" aria-label="Twitter"></i>
+			</a>
+			<a class="col-2" href="https://www.instagram.com/wine_ineff/" target="_blank">
+				<i class="col-2 bi bi-instagram" style="font-size: 2rem; color: #dc3545;" role="img" aria-label="Instagram"></i>
+			</a>
+			<a class="col-2" href="https://github.com/WiNE-iNEFF" target="_blank">
+				<i class="col-2 bi bi-github text-dark" style="font-size: 2rem;" role="img" aria-label="GitHub"></i>
+			</a>
+			<a class="col-2" href="https://www.reddit.com/user/WiNE-iNEFF" target="_blank">
+				<i class="col-2 bi bi-reddit" style="font-size: 2rem; color: orange;" role="img" aria-label="Reddit"></i>
+			</a>
+		</div>
+	</div>
+	
+	<div class="container text-center" style="margin-top: 0%">
+
+		<!File download>
+		<div class="form-check form-switch form-check-inline col-md-auto d-none" style="margin-top: 2%">
+			<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"> 
+			<label class="form-check-label" for="flexSwitchCheckDefault">Download as file</label>
+		</div>
+
+		<button id="bryt" type="button" class="btn btn-primary col-6 text-nowrap" style="margin-top: 2%">Generate</button>
+
+		<!progress bar>
+		<div class="progress d-none" style="height: 20px;">
+			<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example 20px high" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+		</div>
+	</div>
+	<div style="margin-top: 2%;" class="container text-center">
+		<div id="output" class=""></div>
+	</div>
+	
+	<script type="text/python" id="script3">
+		from browser import document
+		import random
+
+		prompt = open('prompttext.txt').read().splitlines()
+
+		def get_prompt(e): 
+			vocab = len(prompt)
+			generated = []
+			for i in range(17):
+				rand = random.randint(0,vocab)
+				generated.append(prompt[rand-1])
+			document['output'].text = ' '.join(generated)
+			
+		document['bryt'].bind('click', get_prompt)
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
