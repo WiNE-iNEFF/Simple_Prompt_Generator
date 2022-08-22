@@ -7,12 +7,12 @@
 
 ## <p align="center">Quick start</p>
 
-Download script from this repository and start in command line
+You can download scripts from this repository and start in command line:
 ```
 python generator.py
 python gen02.py
 ```
-The length of the generated hint is 17 by default, you can change it in the script itself
+or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator/" target="_blank">website</a>
 
 ## <p align="center">Example</p>
 
