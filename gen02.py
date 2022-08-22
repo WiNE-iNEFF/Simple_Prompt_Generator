@@ -1,6 +1,5 @@
 import random
-prompt = '''
-photorealistic,
+prompt = '''photorealistic,
 dramatic,
 dramatic color,
 liquid,
@@ -591,13 +590,12 @@ Synthwave art,
 Your Name anime art style,
 Nature Sunsets,
 Sunsets,
-Synthwave,
-'''.splitlines()
+Synthwave,'''.splitlines()
 vocab = len(prompt)
 #num_word = input(f'Max word (Max {vocab - 1}): ')
 generated = []
 num_word = 13
 for i in range(int(num_word)):
 	rand = random.randint(0, vocab)
-	generated.append(prompt[rand])
+	generated.append(prompt[rand-1])
 print(' '.join(generated))
