@@ -70,7 +70,7 @@
 		def get_prompt(e): 
 			vocab = len(prompt)
 			generated = []
-			for i in range(17):
+			for i in range(13):
 				rand = random.randint(0,vocab)
 				generated.append(prompt[rand-1])
 			document['output'].text = ' '.join(generated)
