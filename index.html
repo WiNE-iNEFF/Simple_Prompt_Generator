@@ -22,8 +22,8 @@
 </head>
 <body onload="brython()"> 
 
-	<div class="container text-center" style="margin-top: 10%;">
-		<h1>Simple Prompt Generator<h6>v0.1</h6></h1>
+	<div class="container text-center" style="margin-top: 8%;">
+		<h1>Simple Prompt Generator<h6>v0.2</h6></h1>
 		<h5>Simple prompt generation script <br>for Midjourney, DALLe, Stable and <br>Disco diffusion and etc neural networks.</h5>
 		<p>More examples in <a class='link-info' href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator" target="_blank">Github</a></p>
 		<div class="row text-center" style="margin-left: 23%;">
@@ -45,12 +45,29 @@
 	<div class="container text-center" style="margin-top: 0%">
 
 		<!File download>
-		<div class="form-check form-switch form-check-inline col-md-auto d-none" style="margin-top: 2%">
-			<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"> 
+		<div class="form-check form-check-inline col-md-auto d-none" style="margin-top: 2%;">
+			<input class="form-check-input" style="text-align: center;" type="checkbox" role="switch" id="flexSwitchCheckDefault"> 
 			<label class="form-check-label" for="flexSwitchCheckDefault">Download as file</label>
 		</div>
 
-		<button id="bryt" type="button" class="btn btn-primary col-6 text-nowrap" style="margin-top: 2%">Generate</button>
+		<!Select file>
+		<select class="form-select-sm col-6" id='select' style="margin-top: 2%;" aria-label=".form-select-sm example">
+		  <option value="1" selected>Prompt Generator v0.1(Better quality)</option>
+		  <option value="2">Prompt Generator v0.2(More tags)</option>
+		</select>
+
+		<!Num of tag>
+		<div style="margin-top: 1%; display: block;" class="offset-3 col-6">
+			<div class="input-group mb-3">
+			  <span class="input-group-text" id="basic-addon3">Num of tag (MAX 20)</span>
+			  <input type="number" value="10" class="form-control" id="text" min="1" max="20">
+			</div>
+		</div>
+
+		<!Button Gen>
+		<div style="margin-top: 2%; display: block;">
+			<button id="bryt" type="button" class="btn btn-primary col-6 text-nowrap">Generate</button>
+		</div>
 
 		<!progress bar>
 		<div class="progress d-none" style="height: 20px;">
@@ -65,12 +82,21 @@
 		from browser import document
 		import random
 
-		prompt = open('prompttext.txt').read().splitlines()
+		def get_prompt(e):
+			text = document['text']
+			if int(text.value) < 1 or int(text.value) > 20:
+				text.classList.add("is-invalid")
+				text.value = 10
 
-		def get_prompt(e): 
+			select = document['select'].value
+			if select == '1':
+				prompt = open('prompttext.txt').read().splitlines()
+			else:
+				prompt = open('prompttext2.txt').read().splitlines()
+
 			vocab = len(prompt)
 			generated = []
-			for i in range(13):
+			for i in range(int(text.value)):
 				rand = random.randint(0,vocab)
 				generated.append(prompt[rand-1])
 			document['output'].text = ' '.join(generated)
