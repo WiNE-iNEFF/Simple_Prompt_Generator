@@ -1,5 +1,6 @@
 import random
-prompt = '''photorealistic,
+prompt = '''
+photorealistic,
 dramatic,
 dramatic color,
 liquid,
@@ -497,6 +498,7 @@ horror,
 creepy,
 scary,
 detailed face,
+detailed body,
 horror art,
 scary art,
 creepe art,
@@ -509,12 +511,20 @@ wearing in punk outfit,
 Flat Design Vector Illustrations,
 Vector Illustrations,
 Flat Design,
+RPG Item Icons,
+Item Icons,
+3D Anime Avatar,
 round cute face,
 horizon zero dawn,
+pubg,
+minecraft,
+player unknown battleground,
+call of duty,
 battle field,
 world war,
 world war 2,
 world war 3,
+counter strike,
 Everlasting summer,
 Fate/Stay night,
 hdr,
@@ -581,12 +591,12 @@ Synthwave art,
 Your Name anime art style,
 Nature Sunsets,
 Sunsets,
-Synthwave,'''.splitlines()
+Synthwave,
+'''.splitlines()
 vocab = len(prompt)
-#num_word = input(f'Max word (Max {vocab - 1}): ')
 generated = []
 num_word = 13
-for i in range(int(num_word)):
+while len(sorted(set(generated), key=lambda d: generated.index(d))) < num_word:
 	rand = random.randint(0, vocab)
-	generated.append(prompt[rand-1])
-print(' '.join(generated))
+	generated.append(prompt[rand])
+print(' '.join(sorted(set(generated), key=lambda d: generated.index(d))))
