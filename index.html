@@ -110,7 +110,7 @@
 
 			vocab = len(prompt)
 			generated = []
-			while len(sorted(set(generated), key=lambda d: generated.index(d))) < num_word:
+			while len(sorted(set(generated), key=lambda d: generated.index(d))) < text.value:
 				rand = random.randint(0,vocab)
 				generated.append(prompt[rand-1])
 			document['output'].text = ' '.join(sorted(set(generated), key=lambda d: generated.index(d)))
