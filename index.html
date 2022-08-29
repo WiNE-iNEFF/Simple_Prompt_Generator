@@ -2,7 +2,7 @@
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-   <title>Simple  Prompt Generator</title>
+   <title>Simple Prompt Generator</title>
 
    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
@@ -16,6 +16,20 @@
 	<meta name="description" content="Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion and etc neural networks.">
 	<meta name="keywords" content="HTML, Python, prompt, prompt generator, simple prompt generator, python prompt, python prompt generator, DALLe, DALLe 2, Midjourney, DiscoDiffusion, Disco diffusion, Latent diffusion, StableDIffusion, Stable diffusion, prompt for Midjourney, prompt for Stable diffusion, WiNE-iNEFF, wine_ineff, WiNE iNEFF">
   	<meta name="author" content="WiNE iNEFF">
+
+  	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://wine-ineff.github.io/Simple_Prompt_Generator/">
+	<meta property="og:title" content="Simple Prompt Generator v0.3">
+	<meta property="og:description" content="Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion and etc neural networks.">
+	<meta property="og:image" content="">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://wine-ineff.github.io/Simple_Prompt_Generator/">
+	<meta property="twitter:title" content="Simple Prompt Generator v0.3">
+	<meta property="twitter:description" content="Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion and etc neural networks.">
+	<meta property="twitter:image" content="">
 	
 	<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js"></script> 
 	<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js"></script>
@@ -23,7 +37,7 @@
 <body onload="brython()"> 
 
 	<div class="container text-center" style="margin-top: 8%;">
-		<h1>Simple Prompt Generator<h6>v0.2</h6></h1>
+		<h1>Simple Prompt Generator<h6>v0.3</h6></h1>
 		<h5>Simple prompt generation script <br>for Midjourney, DALLe, Stable and <br>Disco diffusion and etc neural networks.</h5>
 		<p>More examples in <a class='link-info' href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator" target="_blank">Github</a></p>
 		<div class="row text-center" style="margin-left: 23%;">
@@ -96,10 +110,10 @@
 
 			vocab = len(prompt)
 			generated = []
-			for i in range(int(text.value)):
+			while len(sorted(set(generated), key=lambda d: generated.index(d))) < num_word:
 				rand = random.randint(0,vocab)
 				generated.append(prompt[rand-1])
-			document['output'].text = ' '.join(generated)
+			document['output'].text = ' '.join(sorted(set(generated), key=lambda d: generated.index(d)))
 			
 		document['bryt'].bind('click', get_prompt)
 	</script>
