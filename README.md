@@ -12,7 +12,7 @@ You can download scripts from this repository and start in command line:
 python generator.py
 python gen02.py
 ```
-or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator/" target="_blank">website</a> or <a href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator/releases" target="_blank">app</a>
+or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator/" target="_blank">website</a>, <a href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator/releases" target="_blank">app</a> or <a href="https://github.com/WiNE-iNEFF/Stable_Diffusion_colab" target="_blank">my colab notebook with text2image and image2image generator</a>
 
 ## <p align="center">Example</p>
 
