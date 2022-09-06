@@ -1,5 +1,5 @@
 import random
-prompt = open('prompttext2.txt').read().splitlines()
+prompt = open('prompttext2.txt', encoding='utf-8').read().splitlines()
 vocab = len(prompt)
 generated = []
 num_word = 13
