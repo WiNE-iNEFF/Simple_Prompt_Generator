@@ -17,6 +17,15 @@ python gen02.py
 ```
 or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator/" target="_blank">website</a>, <a href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator/releases" target="_blank">app</a> or <a href="https://github.com/WiNE-iNEFF/Stable_Diffusion_colab" target="_blank">my colab notebook with text2image and image2image generator</a>
 
+## <p align="center">Update</p>
+
+<ul>
+	12.02.23:
+	<li>Change the code of the site for more comfortable work both on PC and on the phone</li>
+	<li>Delete some bad prompt in Prompt Generator v0.1</li>
+</ul>
+
+
 ## <p align="center">Example</p>
 
 Version 0.1:
