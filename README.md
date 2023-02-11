@@ -5,7 +5,7 @@
     <p>Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion and etc neural networks.</p>
 </h3><br>
 <div  align="center">
-	<img src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_Simple_Prompt_Generator' alt='visitor badge'>
+	<img style="display: inline-block, margin-right: 1%;" src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_Simple_Prompt_Generator&left_text=GithubVisitors' alt='visitor badge'><img style="display: inline-block;" src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_HF_Simple_Prompt_Generator&left_text=HuggingFaceVisitors' alt='visitor badge'>
 </div>
 
 ## <p align="center">Quick start</p>
@@ -15,7 +15,7 @@ You can download scripts from this repository and start in command line:
 python generator.py
 python gen02.py
 ```
-or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator/" target="_blank">website</a>, <a href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator/releases" target="_blank">app</a> or <a href="https://github.com/WiNE-iNEFF/Stable_Diffusion_colab" target="_blank">my colab notebook with text2image and image2image generator</a>
+or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator/" target="_blank">website</a>, <a href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator/releases" target="_blank">app</a>, <a href="https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator" target="_blank">Gradio Demo</a> or <a href="https://github.com/WiNE-iNEFF/Stable_Diffusion_colab" target="_blank">my colab notebook with text2image and image2image generator</a>
 
 ## <p align="center">Update</p>
 
@@ -23,6 +23,7 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 	12.02.23:
 	<li>Change the code of the site for more comfortable work both on PC and on the phone</li>
 	<li>Delete some bad prompt in Prompt Generator v0.1</li>
+        <li>Add <a href="https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator" target="_blank">Gradio Demo</a></li>
 </ul>
 
 
