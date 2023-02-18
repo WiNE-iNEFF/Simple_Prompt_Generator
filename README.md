@@ -25,6 +25,7 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 	19.02.23:
 	<li>Update code and text prompts for better experements</li>
 	<li>Added the ability to specify the number of artists in the text prompt</li>
+	<li>Update website</li>
 	<br>
 	12.02.23:
 	<li>Change the code of the site for more comfortable work both on PC and on the phone</li>
