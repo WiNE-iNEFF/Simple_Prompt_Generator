@@ -36,10 +36,13 @@
 </head>
 <body onload="brython()"> 
 
-	<div class="container text-center" style="margin-top: 8%;">
-		<h1>Simple Prompt Generator<h6>v0.4</h6></h1>
-		<h5>Simple prompt generation script <br>for Midjourney, DALLe, Stable and <br>Disco diffusion and etc neural networks.</h5>
-		<p>More examples in <a class='link-info' href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator" target="_blank">Github</a></p>
+	<div class="container text-center" style="margin-top: 5%;">
+		<h1>Simple Prompt Generator<h6>v0.5</h6></h1>
+		<h5>Simple prompt generation script for Midjourney,<br> DALLe, Stable and Disco diffusion and etc neural networks.</h5>
+		<center>
+			<img style="display: inline-block, margin-right: 1%;" src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_Simple_Prompt_Generator&left_text=GithubVisitors' alt='visitor badge'><img style="display: inline-block;" src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_HF_Simple_Prompt_Generator&left_text=HuggingFaceVisitors' alt='visitor badge'>
+      </center>
+		<p>More examples and update history <br> in <a class='link-info' href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator" target="_blank">Github</a>, <a class='link-info' href="https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator" target="_blank">Gradio Web Demo</a></p>
 		<div class="row text-center" style="margin-left: 23%;">
 			<a class="col-2" href="https://twitter.com/wine_ineff" target="_blank">
 				<i class="bi bi-twitter text-info" style="font-size: 2rem;" role="img" aria-label="Twitter"></i>
@@ -56,7 +59,7 @@
 		</div>
 	</div>
 	
-	<div class="container text-center" style="margin-top: 3%">
+	<div class="container text-center" style="margin-top: 1%">
 
 		<!File download>
 		<div class="form-check form-check-inline col-md-auto d-none" style="margin-top: 2%;">
@@ -75,6 +78,14 @@
 			<div class="input-group mb-3">
 			  <span class="input-group-text" id="basic-addon3">Num of tag (MAX 20)</span>
 			  <input type="number" value="10" class="form-control" id="text" min="1" max="20">
+			</div>
+		</div>
+
+		<!Num of artists>
+		<div style="margin-top: 1%; display: block;" class="offset-2 col-8">
+			<div class="input-group mb-3">
+			  <span class="input-group-text" id="basic-addon3">Num of artists (Standart 2)</span>
+			  <input type="number" value="2" class="form-control" id="artists" min="0" max="40">
 			</div>
 		</div>
 
@@ -102,18 +113,28 @@
 				text.classList.add("is-invalid")
 				text.value = 10
 
+			artist = document['artists']
+			if int(artist.value) < 0 or int(artist.value) > 40:
+				artist.classList.add("is-invalid")
+				artist.value = 2
+
 			select = document['select'].value
 			if select == '1':
-				prompt = open('prompttext.txt').read().splitlines()
+				prompt = open('pr1.txt').read().splitlines()
 			else:
-				prompt = open('prompttext2.txt').read().splitlines()
+				prompt = open('pr2.txt').read().splitlines()
 
 			vocab = len(prompt)
 			generated = []
+			artists_num = 0
 			while len(sorted(set(generated), key=lambda d: generated.index(d))) < int(text.value):
 				rand = random.randint(0,vocab)
-				generated.append(prompt[rand-1])
-			document['output'].text = ' '.join(sorted(set(generated), key=lambda d: generated.index(d)))
+				if prompt[rand-1].startswith('art by') and artists_num < int(artist.value):
+					artists_num +=1 
+					generated.append(prompt[rand-1])
+				elif not prompt[rand-1].startswith('art by'):
+					generated.append(prompt[rand-1])
+			document['output'].text = ', '.join(set(generated))
 			
 		document['bryt'].bind('click', get_prompt)
 	</script>
