@@ -124,7 +124,6 @@
 			else:
 				prompt = open('pr2.txt').read().splitlines()
 
-			vocab = len(prompt)
 			generated = []
 			artists_num = 0
 			while len(sorted(set(generated), key=lambda d: generated.index(d))) < int(text.value):
