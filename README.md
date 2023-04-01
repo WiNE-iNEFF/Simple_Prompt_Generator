@@ -22,6 +22,9 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 ## <p align="center">Update</p>
 
 <ul>
+	01.04.23:
+	<li>Improved code removed bugs of the last update</li>
+	<br>
 	19.02.23:
 	<li>Update code and text prompts for better experements</li>
 	<li>Added the ability to specify the number of artists in the text prompt</li>
@@ -30,7 +33,7 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 	12.02.23:
 	<li>Change the code of the site for more comfortable work both on PC and on the phone</li>
 	<li>Delete some bad prompt in Prompt Generator v0.1</li>
-        <li>Add <a href="https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator" target="_blank">Gradio Demo</a></li>
+    <li>Add <a href="https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator" target="_blank">Gradio Demo</a></li>
 </ul>
 
 

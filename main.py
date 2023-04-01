@@ -1,24 +1,27 @@
 import argparse
 import random
 
-def prompts(prompts="pr1.txt", num=10, artists=2):
+def prompts(prompts, num_word, artists):
 	if prompts == "pr1.txt":
 		prompt = open('pr1.txt', encoding='utf-8').read().splitlines()
 	elif prompts == "pr2.txt":
 		prompt = open('pr2.txt', encoding='utf-8').read().splitlines()
 
-	vocab = len(prompt)
+	if num_word == None:
+		num_word = 10
+	if artists == None:
+		artists = 2
+
 	generated = []
 	artists_num = 0
-	num_word = num
 
-	while len(sorted(set(generated), key=lambda d: generated.index(d))) < num_word:
-		rand = random.randint(0, vocab)
-		if prompt[rand-1].startswith('art by') and artists_num < artists:
+	while len(sorted(set(generated), key=lambda d: generated.index(d))) < int(num_word):
+		rand = random.choice(prompt)
+		if rand.startswith('art by') and int(artists_num) < int(artists):
 			artists_num +=1 
-			generated.append(prompt[rand-1])
-		elif not prompt[rand-1].startswith('art by'):
-			generated.append(prompt[rand-1])
+			generated.append(rand)
+		elif not rand.startswith('art by'):
+			generated.append(rand)
 
 	print(', '.join(set(generated)))
 
@@ -33,7 +36,7 @@ class MainArg():
 		parser.add_argument('-a', '--artists', help='How many artists use in prompt (Standart: 2)', required=False)
 
 		args = parser.parse_args()
-		prompts(args.prompts, int(args.num), int(args.artists))
+		prompts(args.prompts, args.num, args.artists)
 
 if __name__ == "__main__":
 	main = MainArg()
