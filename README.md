@@ -17,7 +17,7 @@ python main.py -p "pr1.txt" -n 5 -a 2
 ['-n', '--num' , number of word in prompt (Standart: 10, MAX: 20)]
 ['-a', '--artists' , How many artists use in prompt (Standart: 2)]
 ```
-or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator/" target="_blank">website</a>, <a href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator/releases" target="_blank">app</a>, <a href="https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator" target="_blank">Gradio Demo</a> or <a href="https://github.com/WiNE-iNEFF/Stable_Diffusion_colab" target="_blank">my colab notebook with text2image and image2image generator</a>
+or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator/" target="_blank">website</a>, <a href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator/releases" target="_blank">app</a>, <a href="https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator" target="_blank">Gradio Demo</a> or <a href="https://github.com/WiNE-iNEFF/Stable_Diffusion_colab" target="_blank">colab notebook</a>
 
 ## <p align="center">Update</p>
 
