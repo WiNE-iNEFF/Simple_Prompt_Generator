@@ -4,10 +4,11 @@
 <h3 align="center">
     <p>Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion and etc neural networks.</p>
 </h3><br>
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=WiNE-iNEFF.Simple_Prompt_Generator)
 <div  align="center">
 	<img style="display: inline-block, margin-right: 1%;" src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_Simple_Prompt_Generator&left_text=GithubVisitors' alt='visitor badge'><img style="display: inline-block;" src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_HF_Simple_Prompt_Generator&left_text=HuggingFaceVisitors' alt='visitor badge'>
 </div>
+
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=jwenjian.visitor-badge)  
 
 ## <p align="center">Quick start</p>
 
