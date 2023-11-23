@@ -8,7 +8,7 @@
 	<img style="display: inline-block, margin-right: 1%;" src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_Simple_Prompt_Generator&left_text=GithubVisitors' alt='visitor badge'><img style="display: inline-block;" src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_HF_Simple_Prompt_Generator&left_text=HuggingFaceVisitors' alt='visitor badge'>
 </div>
 
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=jwenjian.visitor-badge)  
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=WiNE-iNEFF.Simple_Prompt_Generator)  
 
 ## <p align="center">Quick start</p>
 
