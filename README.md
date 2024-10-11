@@ -2,7 +2,7 @@
     <p>Simple Prompt Generator</p>
 </h2>
 <h3 align="center">
-    <p>Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion and etc neural networks.</p>
+    <p>Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion, Flux and etc neural networks.</p>
 </h3><br>
 <div  align="center">
     <img style="display: inline-block, margin-right: 1%;" src='https://visitor-badge.laobi.icu/badge?page_id=WiNE-iNEFF.Simple_Prompt_Generator&left_color=red&right_color=green&left_text=Visitors' alt='visitor badge'>
