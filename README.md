@@ -7,6 +7,7 @@
 <div  align="center">
     <img style="display: inline-block, margin-right: 1%;" src='https://visitor-badge.laobi.icu/badge?page_id=WiNE-iNEFF.Simple_Prompt_Generator&left_color=red&right_color=green&left_text=Visitors' alt='visitor badge'>
     <!img style="display: inline-block;" src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_HF_Simple_Prompt_Generator&left_text=HuggingFaceVisitors' alt='visitor badge'>
+    <img src="https://img.shields.io/github/downloads/WiNE-iNEFF/Simple_Prompt_Generator/total">
 </div>  
 
 ## <p align="center">Quick start</p>
