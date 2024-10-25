@@ -91,3 +91,10 @@ Version 0.2:
 	<a href="https://www.instagram.com/wine_ineff" target='_blank'>Instagram</a><br>
 	<a href="https://www.reddit.com/user/WiNE-iNEFF" target='_blank'>Reddit</a>
 </h3>
+
+## <p align="center">Development support</p>
+If you want to support this project and author of this project:</br>
+**TON**: *UQDXHLtVLfeMsUjk_XtvgEC6CYxo63ZkLOrrFlaAe2cGn3-Z*</br>
+**BTC**: *3KhWEKA2LpGeesshPCfgRRLsZuBHFtCnfU*</br>
+**USDT (TRC20)**: *TGfzwpq2FhQbWisZMWyY98h2KgqV2JVjFH*
+
