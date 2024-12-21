@@ -21,15 +21,15 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 
 
 01.04.23:
-	- Improved code removed bugs of the last update
+- Improved code removed bugs of the last update <br>
 19.02.23:
-	- Update code and text prompts for better experements
-	- Added the ability to specify the number of artists in the text prompt
-	- Update website
+- Update code and text prompts for better experements
+- Added the ability to specify the number of artists in the text prompt
+- Update website <br>
 12.02.23:
-	- Change the code of the site for more comfortable work both on PC and on the phone
-	- Delete some bad prompt in Prompt Generator v0.1
-	- Add [Gradio page](https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator)
+- Change the code of the site for more comfortable work both on PC and on the phone
+- Delete some bad prompt in Prompt Generator v0.1
+- Add [Gradio page](https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator)
 
 ## <p align="center">Example</p>
 
@@ -38,56 +38,43 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 galaxy, art by ismail inceoglu, render, detailed, photorealistic, photorealistic dramatic anime boy, trending on pixiv, full hd, magic circle, landscape, photorealistic, sunsets, flowers, global illumination, block cities, digital painting, mirrors
 ```
 
-| Model               | Result             |
-| ------------------- | ------------------ |
-| Flux                | ![](img/flux3.png) |
-| StableDiffusion 3.5 | ![](img/sd3.png)   |
+| Model                | Result             |
+| -------------------- | ------------------ |
+| Flux                 | ![](img/flux3.png) |
+| Stable Diffusion 3.5 | ![](img/sd3.png)   |
+```
+by peter mohrbacher,  hdr, Sunsets, artstation, 4k 3d, by wayne barlowe,  rossdraws global illumination, terragen, hyper detailed, Animal T-Shirt Design, art by atey ghailan, battle field, epic, art by craig mullins, full hd, by craig mullins, Anime / Manga
+```
+
+| Model | Result             |
+| ----- | ------------------ |
+| Flux  | ![](img/flux5.png) |
+<br>
 **Version 0.2**:
 ```
 light painting, art by john kenn mortense, baroque, art nouveau, space, neon, telephoto, cyclic, art by lemma guya, radiant light, light nover, vray render, unreal engine, tornadic
 ```
 
-| Model               | Result             |
-| ------------------- | ------------------ |
-| Flux                | ![](img/flux1.png) |
-| StableDiffusion 3.5 | ![](img/sd1.png)   |
+| Model                | Result             |
+| -------------------- | ------------------ |
+| Flux                 | ![](img/flux1.png) |
+| Stable Diffusion 3.5 | ![](img/sd1.png)   |
 ```
 "by atey ghailan, cinematic, radiant light, rose, scrapbooking, by peter mohrbacher,  12-bit, flowers, postage stamp, post-apocalypse, character design, art by john Constable, fanbox"
 ```
 
-| Model               | Result             |
-| ------------------- | ------------------ |
-| Flux                | ![](img/flux2.png) |
-| StableDiffusion 3.5 | ![](img/sd2.png)   |
-
-
-
-2. Stable Diffusion
+| Model                | Result             |
+| -------------------- | ------------------ |
+| Flux                 | ![](img/flux2.png) |
+| Stable Diffusion 3.5 | ![](img/sd2.png)   |
 ```
-"vray render, art by cory loftis, cinematic, landscape, fanart, Animal T-Shirt Design, Vector Illustrations, glitch art, art by makoto shinkai, art by atey ghailan, 8k, photorealistic dramatic, art by wlop, Japenese light novel, creepy, post-apocalypse, mirrors"
+fanbox, drawing, 4-bit, wet paint, weta FX, by wlop, art by Ko Young Hoon, art by craig mullins, beautiful lighting, by hajime sorayama,  Octal, puffy paint, volumetric lighting, art by atey ghailan, tones of black, by Ralph Steadman, logo
 ```
-![rdm-figure](img/2.png)
 
-3. Stable Diffusion
-```
-"by peter mohrbacher,  hdr, Sunsets, artstation, 4k 3d, by wayne barlowe,  rossdraws global illumination, terragen, hyper detailed, Animal T-Shirt Design, art by atey ghailan, battle field, epic, art by craig mullins, full hd, by craig mullins, Anime / Manga"
-```
-![rdm-figure](img/3.png)
-
-Version 0.2:
-1. Stable Diffusion
-```
-"fanbox, drawing, 4-bit, wet paint, weta FX, by wlop, art by Ko Young Hoon, art by craig mullins, beautiful lighting, by hajime sorayama,  Octal, puffy paint, volumetric lighting, art by atey ghailan, tones of black, by Ralph Steadman, logo"
-```
-![rdm-figure](img/4.png)
-
-2. Stable Diffusion
-```
-"erode, vertex, modeling, subdimensional, convex, terragen, storybook illustration, bussiness card, crosshatch, vfx, GLSL shaders, by makoto shinkai, rossdraws global illumination"
-```
-![rdm-figure](img/5.png)
-
-
+| Model                | Result             |
+| -------------------- | ------------------ |
+| Flux                 | ![](img/flux4.png) |
+| Stable Diffusion 3.4 | ![](img/sd4.png)   |
 
 # <p align="center">For more example going on:</p>
 <h3 align="center">
@@ -97,8 +84,11 @@ Version 0.2:
 </h3>
 
 ## <p align="center">Development support</p>
-If you want to support this project and author of this project:</br>
-**TON**: *UQDXHLtVLfeMsUjk_XtvgEC6CYxo63ZkLOrrFlaAe2cGn3-Z*</br>
-**BTC**: *3KhWEKA2LpGeesshPCfgRRLsZuBHFtCnfU*</br>
-**USDT (TRC20)**: *TGfzwpq2FhQbWisZMWyY98h2KgqV2JVjFH*
+If you want to support this project and author of this project:
+
+| TON          | UQDXHLtVLfeMsUjk_XtvgEC6CYxo63ZkLOrrFlaAe2cGn3-Z |
+| ------------ | ------------------------------------------------ |
+| BTC          | 3KhWEKA2LpGeesshPCfgRRLsZuBHFtCnfU               |
+| USDT (TRC20) | TGfzwpq2FhQbWisZMWyY98h2KgqV2JVjFH               |
+
 
