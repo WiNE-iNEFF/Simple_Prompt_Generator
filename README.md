@@ -19,14 +19,14 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 
 ## <p align="center">Update</p>
 
-<br>
-01.04.23:
-- Improved code removed bugs of the last update <br>
-19.02.23:
+
+###### 01.04.23:
+- Improved code removed bugs of the last update
+###### 19.02.23:
 - Update code and text prompts for better experements
 - Added the ability to specify the number of artists in the text prompt
-- Update website <br>
-12.02.23:
+- Update website 
+###### 12.02.23:
 - Change the code of the site for more comfortable work both on PC and on the phone
 - Delete some bad prompt in Prompt Generator v0.1
 - Add [Gradio page](https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator)
