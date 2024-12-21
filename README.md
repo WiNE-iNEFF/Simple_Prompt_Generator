@@ -1,9 +1,5 @@
-<h2 align="center">
-    <p>Simple Prompt Generator</p>
-</h2>
-<h3 align="center">
-    <p>Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion, Flux and etc neural networks.</p>
-</h3><br>
+# <p align="center">Simple Prompt Generator</p>
+### <p align="center">Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion, Flux and etc neural networks.</p><br>
 <div  align="center">
     <img style="display: inline-block, margin-right: 1%;" src='https://visitor-badge.laobi.icu/badge?page_id=WiNE-iNEFF.Simple_Prompt_Generator&left_color=red&right_color=green&left_text=Visitors' alt='visitor badge'>
     <!img style="display: inline-block;" src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_HF_Simple_Prompt_Generator&left_text=HuggingFaceVisitors' alt='visitor badge'>
@@ -13,7 +9,7 @@
 ## <p align="center">Quick start</p>
 
 You can download scripts from this repository and start in command line:
-```
+```python
 python main.py -p "pr1.txt" -n 5 -a 2
 ['-p', '--prompts' , Choose between 'pr1.txt'(Prompt Generator v0.1(Better quality)) or 'pr2.txt'(Prompt Generator v0.2(More tags)))]
 ['-n', '--num' , number of word in prompt (Standart: 10, MAX: 20)]
@@ -23,23 +19,30 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 
 ## <p align="center">Update</p>
 
-<ul>
-	01.04.23:
-	<li>Improved code removed bugs of the last update</li>
-	<br>
-	19.02.23:
-	<li>Update code and text prompts for better experements</li>
-	<li>Added the ability to specify the number of artists in the text prompt</li>
-	<li>Update website</li>
-	<br>
-	12.02.23:
-	<li>Change the code of the site for more comfortable work both on PC and on the phone</li>
-	<li>Delete some bad prompt in Prompt Generator v0.1</li>
-    <li>Add <a href="https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator" target="_blank">Gradio Demo</a></li>
-</ul>
 
+01.04.23:
+- Improved code removed bugs of the last update
+19.02.23:
+- Update code and text prompts for better experements
+- Added the ability to specify the number of artists in the text prompt
+- Update website
+12.02.23:
+- Change the code of the site for more comfortable work both on PC and on the phone
+- Delete some bad prompt in Prompt Generator v0.1
+- Add [Gradio page](https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator)
 
 ## <p align="center">Example</p>
+
+Version 0.1:
+
+| Prompt                                                                                                                                                                                                                                                     | Model               | Result             |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ |
+| "galaxy, art by ismail inceoglu, render, detailed, photorealistic, photorealistic dramatic anime boy, trending on pixiv, full hd, magic circle, landscape, photorealistic, sunsets, flowers, global illumination, block cities, digital painting, mirrors" | Flux                | ![](img/flux3.png) |
+|                                                                                                                                                                                                                                                            | StableDiffusion 3.5 | ![](img/sd3.png)   |
+|                                                                                                                                                                                                                                                            |                     |                    |
+
+
+
 
 Version 0.1:
 1. Stable Diffusion
