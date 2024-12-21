@@ -19,11 +19,13 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 
 ## <p align="center">Update</p>
 
-
+###### 22.12.24:
+- Update "*README.md*"
+- Add new examples of work for **Stable Diffusion 3.5** and **Flux.1**
 ###### 01.04.23:
 - Improved code removed bugs of the last update
 ###### 19.02.23:
-- Update code and text prompts for better experements
+- Update code and text prompts for better experiments 
 - Added the ability to specify the number of artists in the text prompt
 - Update website 
 ###### 12.02.23:
