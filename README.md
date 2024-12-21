@@ -19,7 +19,7 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 
 ## <p align="center">Update</p>
 
-
+<br>
 01.04.23:
 - Improved code removed bugs of the last update <br>
 19.02.23:
@@ -33,7 +33,7 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 
 ## <p align="center">Example</p>
 
-**Version 0.1**:
+##### Version 0.1:
 ```
 galaxy, art by ismail inceoglu, render, detailed, photorealistic, photorealistic dramatic anime boy, trending on pixiv, full hd, magic circle, landscape, photorealistic, sunsets, flowers, global illumination, block cities, digital painting, mirrors
 ```
@@ -49,8 +49,8 @@ by peter mohrbacher,  hdr, Sunsets, artstation, 4k 3d, by wayne barlowe,  rossdr
 | Model | Result             |
 | ----- | ------------------ |
 | Flux  | ![](img/flux5.png) |
-<br>
-**Version 0.2**:
+
+##### Version 0.2:
 ```
 light painting, art by john kenn mortense, baroque, art nouveau, space, neon, telephoto, cyclic, art by lemma guya, radiant light, light nover, vray render, unreal engine, tornadic
 ```
