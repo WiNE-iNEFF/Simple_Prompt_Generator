@@ -21,35 +21,46 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 
 
 01.04.23:
-- Improved code removed bugs of the last update
+	- Improved code removed bugs of the last update
 19.02.23:
-- Update code and text prompts for better experements
-- Added the ability to specify the number of artists in the text prompt
-- Update website
+	- Update code and text prompts for better experements
+	- Added the ability to specify the number of artists in the text prompt
+	- Update website
 12.02.23:
-- Change the code of the site for more comfortable work both on PC and on the phone
-- Delete some bad prompt in Prompt Generator v0.1
-- Add [Gradio page](https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator)
+	- Change the code of the site for more comfortable work both on PC and on the phone
+	- Delete some bad prompt in Prompt Generator v0.1
+	- Add [Gradio page](https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator)
 
 ## <p align="center">Example</p>
 
-Version 0.1:
-
-| Prompt                                                                                                                                                                                                                                                     | Model               | Result             |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ |
-| "galaxy, art by ismail inceoglu, render, detailed, photorealistic, photorealistic dramatic anime boy, trending on pixiv, full hd, magic circle, landscape, photorealistic, sunsets, flowers, global illumination, block cities, digital painting, mirrors" | Flux                | ![](img/flux3.png) |
-|                                                                                                                                                                                                                                                            | StableDiffusion 3.5 | ![](img/sd3.png)   |
-|                                                                                                                                                                                                                                                            |                     |                    |
-
-
-
-
-Version 0.1:
-1. Stable Diffusion
+**Version 0.1**:
 ```
-"galaxy, art by ismail inceoglu, render, detailed, photorealistic, photorealistic dramatic anime boy, trending on pixiv, full hd, magic circle, landscape, photorealistic, sunsets, flowers, global illumination, block cities, digital painting, mirrors"
+galaxy, art by ismail inceoglu, render, detailed, photorealistic, photorealistic dramatic anime boy, trending on pixiv, full hd, magic circle, landscape, photorealistic, sunsets, flowers, global illumination, block cities, digital painting, mirrors
 ```
-![rdm-figure](img/1.png)
+
+| Model               | Result             |
+| ------------------- | ------------------ |
+| Flux                | ![](img/flux3.png) |
+| StableDiffusion 3.5 | ![](img/sd3.png)   |
+**Version 0.2**:
+```
+light painting, art by john kenn mortense, baroque, art nouveau, space, neon, telephoto, cyclic, art by lemma guya, radiant light, light nover, vray render, unreal engine, tornadic
+```
+
+| Model               | Result             |
+| ------------------- | ------------------ |
+| Flux                | ![](img/flux1.png) |
+| StableDiffusion 3.5 | ![](img/sd1.png)   |
+```
+"by atey ghailan, cinematic, radiant light, rose, scrapbooking, by peter mohrbacher,  12-bit, flowers, postage stamp, post-apocalypse, character design, art by john Constable, fanbox"
+```
+
+| Model               | Result             |
+| ------------------- | ------------------ |
+| Flux                | ![](img/flux2.png) |
+| StableDiffusion 3.5 | ![](img/sd2.png)   |
+
+
 
 2. Stable Diffusion
 ```
@@ -76,17 +87,7 @@ Version 0.2:
 ```
 ![rdm-figure](img/5.png)
 
-3. Stable Diffusion
-```
-"by atey ghailan, cinematic, radiant light, rose, scrapbooking, by peter mohrbacher,  12-bit, flowers, postage stamp, post-apocalypse, character design, art by john Constable, fanbox"
-```
-![rdm-figure](img/6.png)
 
-4. Stable Diffusion
-```
-"light painting, art by john kenn mortense, baroque, art nouveau, space, neon, telephoto, cyclic, art by lemma guya, radiant light, light nover, vray render, unreal engine, tornadic"
-```
-![rdm-figure](img/7.png)
 
 # <p align="center">For more example going on:</p>
 <h3 align="center">
