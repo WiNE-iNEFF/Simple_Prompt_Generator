@@ -86,11 +86,15 @@ fanbox, drawing, 4-bit, wet paint, weta FX, by wlop, art by Ko Young Hoon, art b
 </h3>
 
 ## <p align="center">Development support</p>
-If you want to support this project and author of this project:
+<p align="center">If you want to support this project and author of this project:</p>
 
-| TON          | UQDXHLtVLfeMsUjk_XtvgEC6CYxo63ZkLOrrFlaAe2cGn3-Z |
+| Wallet       | Adress                                           |
 | ------------ | ------------------------------------------------ |
+| TON          | UQDXHLtVLfeMsUjk_XtvgEC6CYxo63ZkLOrrFlaAe2cGn3-Z |
 | BTC          | 3KhWEKA2LpGeesshPCfgRRLsZuBHFtCnfU               |
 | USDT (TRC20) | TGfzwpq2FhQbWisZMWyY98h2KgqV2JVjFH               |
+
+
+<p align="center">Licensed under MIT | Copyright Ⓒ 2022 Artsem Holub</p>
 
 
