@@ -236,6 +236,6 @@ button.a-b.active:hover{
 		display: none;
 	}
 	textarea{
-		min-height: 130px !important;
+		min-height: 180px !important;
 	}
 }
