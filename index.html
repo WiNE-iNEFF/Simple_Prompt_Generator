@@ -1,111 +1,117 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-   <title>Simple Prompt Generator</title>
+	<title>Simple Prompt Generator</title>
 
-   <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+	<script src="https://kit.fontawesome.com/4bf9f54850.js" crossorigin="anonymous"></script>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WVNZS9NV');</script>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
 	<link rel="manifest" href="favicon_io/site.webmanifest">
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-	<meta name="yandex-verification" content="701cd0309cfcfd1a" />
+	<link rel="stylesheet" type="text/css" href="style.css">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion and etc neural networks.">
-	<meta name="keywords" content="HTML, Python, prompt, prompt generator, simple prompt generator, python prompt, python prompt generator, DALLe, DALLe 2, Midjourney, DiscoDiffusion, Disco diffusion, Latent diffusion, StableDIffusion, Stable diffusion, prompt for Midjourney, prompt for Stable diffusion, WiNE-iNEFF, wine_ineff, WiNE iNEFF, wine-ineff, artsem holub, waifu diffusion, dreamlike, anything v3, stable diffusion 2.1, stable diffusion 1.5, Artsem Holub, Artsem Holub WiNE iNEFF, Artsem Holub WiNE-iNEFF, Artsem Holub WiNE_iNEFF, Artsem Holub wine_ineff, Artsem Holub wine ineff, Артём Голуб WiNE-iNEFF, Артём Голуб WiNE_iNEFF, Артём Голуб WiNE iNEFF, Артём Голуб wine_ineff, WINE-INEFF/HF_Simple_Prompt_Generator, HF_Simple_Prompt_Generator, Simple_Prompt_Generator, github, huggingface, huggingface prompt generator">
+	<meta name="description" content="Simple Prompt Generator - powerful and minimalist interface web app, with minimal setting for comfortable work. Generate different interesting prompt for MidJourney, DALLe, StableDiffusion and etc. Licensed under MIT 2022.">
   	<meta name="author" content="Artsem Holub (WiNE iNEFF)">
 
   	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://wine-ineff.github.io/Simple_Prompt_Generator/">
-	<meta property="og:title" content="Simple Prompt Generator v0.6">
-	<meta property="og:description" content="Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion and etc neural networks.">
+	<meta property="og:title" content="Simple Prompt Generator">
+	<meta property="og:description" content="Simple Prompt Generator - powerful and minimalist interface web app, with minimal setting for comfortable work. Generate different interesting prompt for MidJourney, DALLe, StableDiffusion and etc. Licensed under MIT 2022.">
 	<meta property="og:image" content="https://raw.githubusercontent.com/WiNE-iNEFF/Simple_Prompt_Generator/site/favicon_io/wine-ineff.png">
-	<meta property="og:site_name" content="Simple Prompt Generator v0.6">
+	<meta property="og:site_name" content="Simple Prompt Generator">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:creator" content="@wine_ineff">
 	<meta property="twitter:url" content="https://wine-ineff.github.io/Simple_Prompt_Generator/">
-	<meta property="twitter:title" content="Simple Prompt Generator v0.6">
-	<meta property="twitter:description" content="Simple prompt generation script for Midjourney, DALLe, Stable and Disco diffusion and etc neural networks.">
+	<meta property="twitter:title" content="Simple Prompt Generator">
+	<meta property="twitter:description" content="Simple Prompt Generator - powerful and minimalist interface web app, with minimal setting for comfortable work. Generate different interesting prompt for MidJourney, DALLe, StableDiffusion and etc. Licensed under MIT 2022.">
 	<meta property="twitter:image" content="https://raw.githubusercontent.com/WiNE-iNEFF/Simple_Prompt_Generator/site/favicon_io/wine-ineff.png">
-	
+</head>
+<body onload="brython()">
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVNZS9NV"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+	<div id="main">
+		<div class="left-menu">
+			<h1 class="fw-bold fs-1">SIMPLE <span class="pink fw-bold">PROMPT</span> GENERATOR</h1>
+			<h6 class="w3 text-center mt-2">Powerful and minimalist interface <span class="pink fw-bold">web app</span>, with minimal setting for comfortable work. Generate different interesting <span class="pink fw-bold">prompt</span> for MidJourney, DALLe, StableDiffusion and etc.</h6>
+			<div class="d-flex justify-content-evenly icon mt-3 fs-5 w3">
+				<a href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator" target="_blank">
+					<i class="shadow_white_black rounded-4 fa-brands fa-github"></i>
+				</a>
+				<a href="#generate" class="a-b rounded-4 active shadow_pink_black">Start</a>
+				<!--a href="#menu" class="a-b rounded-4 active shadow_pink_black">Examples</a-->
+				<a href="https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator" target="_blank">
+					<i class="shadow_white_black rounded-4 fa-solid fa-hand-peace"></i>
+				</a>
+			</div>
+		</div>
+		<div class="right-menu">
+			<div class="row justify-content-evenly d-flex mt-2">
+				<div class="cube"></div>
+				<div class="circle"></div>
+			</div>
+			<div class="row justify-content-evenly d-flex mt-2">
+				<div class="circle"></div>
+				<div class="cube"></div>
+			</div>
+			<div class="row justify-content-evenly d-flex mt-2">
+				<div class="cube"></div>
+				<div class="circle"></div>
+			</div>
+		</div>
+	</div>
+	<div id="generate">
+		<div style="height: 100vh !important;" class="container d-flex justify-content-center align-items-center">
+			<div class="offset-3 col-8">
+				<div class="row g-2">
+					<div class="col-4">
+						<div class="input-group">
+							<span class="input-group-text">Tags (MAX 20)</span>
+							<input type="number" value="10" class="form-control" id="text" min="1" max="20">
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="input-group">
+							<span class="input-group-text">Artists</span>
+							<input type="number" value="2" class="form-control" id="artists" min="0" max="40">
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-8 mt-3 form-floating">
+					<select class="form-select" id='select'>
+						<option value="1" selected>Prompt Generator v0.1(Better quality)</option>
+						<option value="2">Prompt Generator v0.2(More tags)</option>
+					</select>
+					<label for="select">Choose version</label>
+				</div>
+
+				<div class="form-floating col-8 mt-3">
+					<textarea class="form-control" placeholder="Output area" id="output" style="height: 100px"></textarea>
+					<label for="output">Output</label>
+				</div>
+
+				<div class="offset-2 col-4 mt-1 text-center">
+					<p style="font-size: 12px;">Look result using <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion-3.5-large" class="pink text-decoration-none" target="_blank">StableDiffusion 3.5</a> or <a href="https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev" class="pink text-decoration-none" target="_blank">Flux.1</a></p>
+				</div>
+
+				<div class="mt-3 offset-2 col-8">
+					<button id="bryt" type="button" class="a-b active shadow_pink_black rounded-4 col-6">Generate</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js"></script> 
 	<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js"></script>
-</head>
-<body onload="brython()"> 
-
-	<div class="container text-center" style="margin-top: 4%;">
-		<h2>Simple Prompt Generator<h6>v0.6</h6></h2>
-		<h5>Simple prompt generation script for Midjourney,<br> DALLe, Stable and Disco diffusion and etc neural networks.</h5>
-		<center>
-			<!img style="display: inline-block, margin-right: 1%;" src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_Simple_Prompt_Generator&left_text=GithubVisitors' alt='visitor badge'><!img style="display: inline-block;" src='https://visitor-badge.glitch.me/badge?page_id=WiNE-iNEFF_HF_Simple_Prompt_Generator&left_text=HuggingFaceVisitors' alt='visitor badge'>
-      </center>
-		<p>More examples and update history <br> in <a class='link-info' href="https://github.com/WiNE-iNEFF/Simple_Prompt_Generator" target="_blank">Github</a>, <a class='link-info' href="https://huggingface.co/spaces/WiNE-iNEFF/HF_Simple_Prompt_Generator" target="_blank">Gradio Web Demo</a></p>
-		<div class="row text-center" style="margin-left: 23%;">
-			<a class="col-2" href="https://twitter.com/wine_ineff" target="_blank">
-				<i class="bi bi-twitter text-info" style="font-size: 2rem;" role="img" aria-label="Twitter"></i>
-			</a>
-			<a class="col-2" href="https://www.instagram.com/wine_ineff/" target="_blank">
-				<i class="col-2 bi bi-instagram" style="font-size: 2rem; color: #dc3545;" role="img" aria-label="Instagram"></i>
-			</a>
-			<a class="col-2" href="https://github.com/WiNE-iNEFF" target="_blank">
-				<i class="col-2 bi bi-github text-dark" style="font-size: 2rem;" role="img" aria-label="GitHub"></i>
-			</a>
-			<a class="col-2" href="https://www.reddit.com/user/WiNE-iNEFF" target="_blank">
-				<i class="col-2 bi bi-reddit" style="font-size: 2rem; color: orange;" role="img" aria-label="Reddit"></i>
-			</a>
-		</div>
-	</div>
-	
-	<div class="container text-center" style="margin-top: 1%">
-
-		<!File download>
-		<div class="form-check form-check-inline col-md-auto d-none" style="margin-top: 2%;">
-			<input class="form-check-input" style="text-align: center;" type="checkbox" role="switch" id="flexSwitchCheckDefault"> 
-			<label class="form-check-label" for="flexSwitchCheckDefault">Download as file</label>
-		</div>
-
-		<!Select file>
-		<select class="form-select-sm col-8" id='select' style="margin-top: 2%;" aria-label=".form-select-sm example">
-		  <option value="1" selected>Prompt Generator v0.1(Better quality)</option>
-		  <option value="2">Prompt Generator v0.2(More tags)</option>
-		</select>
-
-		<!Num of tag>
-		<div style="margin-top: 1%; display: block;" class="offset-2 col-8">
-			<div class="input-group mb-3">
-			  <span class="input-group-text" id="basic-addon3">Num of tag (MAX 20)</span>
-			  <input type="number" value="10" class="form-control" id="text" min="1" max="20">
-			</div>
-		</div>
-
-		<!Num of artists>
-		<div style="margin-top: 1%; display: block;" class="offset-2 col-8">
-			<div class="input-group mb-3">
-			  <span class="input-group-text" id="basic-addon3">Num of artists (Standart 2)</span>
-			  <input type="number" value="2" class="form-control" id="artists" min="0" max="40">
-			</div>
-		</div>
-
-		<!Button Gen>
-		<div style="margin-top: 2%; display: block;">
-			<button id="bryt" type="button" class="btn btn-primary col-6 text-nowrap">Generate</button>
-		</div>
-
-		<!progress bar>
-		<div class="progress d-none" style="height: 20px;">
-			<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example 20px high" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-		</div>
-	</div>
-	<div style="margin-top: 2%;" class="container text-center">
-		<div id="output" class=""></div>
-	</div>
-	
 	<script type="text/python" id="script3">
 		from browser import document
 		import random
@@ -140,14 +146,17 @@
 			
 		document['bryt'].bind('click', get_prompt)
 	</script>
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org/",
+			"@type": "WebApplication",
+			"name": "Simple Prompt Generator",
+			"description": "Simple Prompt Generator - powerful and minimalist interface web app, with minimal setting for comfortable work. Generate different interesting prompt for MidJourney, DALLe, StableDiffusion and etc. Licensed under MIT 2022.",
+			"applicationCategory": "Utility",
+			"operatingSystem": "Web",
+			"url": "https://wine-ineff.github.io/Simple_Prompt_Generator/",
+			"screenshot": "https://raw.githubusercontent.com/WiNE-iNEFF/Simple_Prompt_Generator/site/favicon_io/wine-ineff.png"
+		}
+	</script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

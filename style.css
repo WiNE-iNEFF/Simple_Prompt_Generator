@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+:root{
+	--bg: #e5e5e5;
+	--main_text: #303030;
+	--pink: #ff4a57;
+	--shadow_w: -10px -10px 10px rgba(255, 255, 255, 0.7), 
+           		10px 10px 10px rgba(70, 70, 70, 0.32);
+    --shadow_w_inset: inset -10px -10px 10px rgba(255, 255, 255, 0.7), 
+           			  inset 10px 10px 10px rgba(70, 70, 70, 0.32);
+    --shadow_p_b: -10px -10px 15px rgba(255, 255, 255, 0.7), 
+           		  10px 10px 15px rgba(255, 74, 87, 0.32);
+    --shadow_p_b_inset: inset -10px -10px 15px rgba(255, 255, 255, 0.7), 
+           		 		inset 10px 10px 15px rgba(255, 74, 87, 0.32);
+}
+
+*{
+	color: var(--main_text);
+	margin: 0; padding: 0;
+	font-family: 'Roboto';
+	font-style: normal; /*font-weight: normal;*/
+	scroll-behavior: smooth;
+}
+body{
+	background-color: var( --bg);
+	overflow-x: hidden;
+}
+
+.pink{
+	color: var(--pink);
+}
+
+#main{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+#main .left-menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+}
+#main .right-menu{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	justify-content: space-evenly;
+}
+#main .left-menu .icon i {
+	padding: 10px 15px 10px 15px;
+}
+#main .left-menu .icon i:hover{
+	color: var(--pink);
+	transition: 0.2s;
+}
+#main .right-menu .cube{
+	width: 170px; height: 170px;
+	border-radius: 15px;
+	background-color: var(--bg);
+	box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.7), 
+           		10px 10px 15px rgba(70, 70, 70, 0.32);
+}
+#main .right-menu .cube:after{
+	content: '';
+	display: block;
+	width: 100px; height: 100px;
+	background-color: var(--bg);
+	border-radius: 15px;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	position: relative;
+	box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.7), 
+           	 	10px 10px 15px rgba(70, 70, 70, 0.32);
+}
+#main .right-menu .circle{
+	width: 170px; height: 170px;
+	border-radius: 100px;
+	background-color: var(--bg);
+	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.7), 
+           		inset 10px 10px 15px rgba(70, 70, 70, 0.32);
+}
+#main .right-menu .circle:after{
+	content: '';
+	display: block;
+	width: 100px; height: 100px;
+	background-color: var(--bg);
+	border-radius: 100px;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	position: relative;
+	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.7), 
+           	 	inset 10px 10px 15px rgba(70, 70, 70, 0.32);
+}
+#generate{
+	width: 100vw !important;
+	/*height: 100vh !important;*/
+}
+
+.w3{
+	width: 75%;
+}
+
+.shadow_white_black{
+	box-shadow: var(--shadow_w) !important;
+	transition: 0.4s;
+}
+.shadow_white_black:hover{
+	box-shadow: var(--shadow_w_inset) !important;
+	transition: 0.4s;
+}
+.shadow_pink_black{
+	box-shadow: var(--shadow_p_b) !important;
+	transition: 0.4s;
+}
+.shadow_pink_black:hover{
+	box-shadow: var(--shadow_p_b_inset) !important;
+	transition: 0.4s;
+}
+
+/* FONT AWESOME ICON SETTING */
+.fa-brands{
+	font-weight: normal !important;
+}
+
+/* A */
+a.a-b{
+	background-color: var(--bg);
+	color: var(--main_text);
+	padding: 10px 40px 10px 40px;
+	text-decoration: none;
+	font-size: 14px;
+	border: none;
+}
+a.a-b.active{
+	box-shadow: var(--shadow_w);
+}
+a.a-b.active:hover{
+	box-shadow: var(--shadow_w_inset);
+}
+
+/* Button */
+button.a-b{
+	background-color: var(--bg);
+	color: var(--main_text);
+	padding: 10px 40px 10px 40px;
+	text-decoration: none;
+	font-size: 14px;
+	border: none;
+}
+button.a-b.active{
+	box-shadow: var(--shadow_w);
+}
+button.a-b.active:hover{
+	box-shadow: var(--shadow_w_inset);
+}
