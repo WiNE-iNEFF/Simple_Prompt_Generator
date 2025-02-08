@@ -74,16 +74,16 @@
 		</div>
 	</div>
 	<div id="generate">
-		<div style="height: 100vh !important;" class="container d-flex justify-content-center align-items-center">
-			<div class="offset-sm-4 offset-3 col-sm-12 col-8">
+		<div style="height: 100vh !important;" class="container-fluid d-flex justify-content-center align-items-center">
+			<div class="offset-sm-0 col-sm-10 col-lg-6 col-12">
 				<div class="row g-2">
-					<div class="col-4">
+					<div class="col-6"> <!--col-4-->
 						<div class="input-group">
-							<span class="input-group-text">Tags (MAX 20)</span>
+							<span class="input-group-text">Tags</span>
 							<input type="number" value="10" class="form-control" id="text" min="1" max="20">
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-6">
 						<div class="input-group">
 							<span class="input-group-text">Artists</span>
 							<input type="number" value="2" class="form-control" id="artists" min="0" max="40">
@@ -91,7 +91,7 @@
 					</div>
 				</div>
 				
-				<div class="col-8 mt-3 form-floating">
+				<div class="mt-3 form-floating">
 					<select class="form-select" id='select'>
 						<option value="1" selected>Prompt Generator v0.1(Better quality)</option>
 						<option value="2">Prompt Generator v0.2(More tags)</option>
@@ -99,17 +99,17 @@
 					<label for="select">Choose version</label>
 				</div>
 
-				<div class="form-floating col-8 mt-3">
-					<textarea class="form-control" placeholder="Output area" id="output" style="height: 100px"></textarea>
+				<div class="form-floating col-sm-12 mt-3">
+					<textarea class="form-control" placeholder="Output area" id="output"></textarea>
 					<label for="output">Output</label>
 				</div>
 
-				<div class="offset-2 offset-sm-1 col-sm-6 col-4 mt-1 text-center">
+				<div class="mt-1 text-center">
 					<p style="font-size: 12px;">Look result using <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion-3.5-large" class="pink text-decoration-none" target="_blank">StableDiffusion 3.5</a> or <a href="https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev" class="pink text-decoration-none" target="_blank">Flux.1</a></p>
 				</div>
 
-				<div class="mt-3 offset-2 col-8">
-					<button id="bryt" type="button" class="a-b active shadow_pink_black rounded-4 col-6">Generate</button>
+				<div class="mt-3">
+					<button id="bryt" type="button" class="a-b active shadow_pink_black rounded-4 col-6 offset-3">Generate</button>
 				</div>
 			</div>
 		</div>

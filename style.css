@@ -96,6 +96,9 @@ body{
 	width: 100vw !important;
 	/*height: 100vh !important;*/
 }
+textarea{
+	min-height: 100px !important;
+}
 
 .w3{
 	width: 75%;
@@ -208,6 +211,9 @@ button.a-b.active:hover{
 	.circle:after{
 		display: none;
 	}
+	textarea{
+		min-height: 130px !important;
+	}
 }
 
 @media screen and (max-width: 576px) {
@@ -228,5 +234,8 @@ button.a-b.active:hover{
 	}
 	.circle:after{
 		display: none;
+	}
+	textarea{
+		min-height: 130px !important;
 	}
 }
