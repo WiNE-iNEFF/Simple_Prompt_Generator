@@ -154,3 +154,79 @@ button.a-b.active{
 button.a-b.active:hover{
 	box-shadow: var(--shadow_w_inset);
 }
+
+/*
+@media screen and (min-width: 1400px) {
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+}*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.left-menu{
+		min-width: 100vw;
+	}
+	.right-menu{
+		display: none;
+	}
+	.cube{
+		display: none;
+	}
+	.cube:after{
+		display: none;
+	}
+	.circle{
+		display: none;
+	}
+	.circle:after{
+		display: none;
+	}
+}
+	
+@media screen and (min-width: 576px) and (max-width: 767px) {
+	.left-menu{
+		min-width: 100vw;
+	}
+	.right-menu{
+		display: none;
+	}
+	.cube{
+		display: none;
+	}
+	.cube:after{
+		display: none;
+	}
+	.circle{
+		display: none;
+	}
+	.circle:after{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.left-menu{
+		min-width: 100vw;
+	}
+	.right-menu{
+		display: none;
+	}
+	.cube{
+		display: none;
+	}
+	.cube:after{
+		display: none;
+	}
+	.circle{
+		display: none;
+	}
+	.circle:after{
+		display: none;
+	}
+}
