@@ -19,6 +19,8 @@ or try to use this <a href="https://wine-ineff.github.io/Simple_Prompt_Generator
 
 ## <p align="center">Update</p>
 
+###### 08.02.25:
+- Make new web application design for better experience
 ###### 22.12.24:
 - Update "*README.md*"
 - Add new examples of work for **Stable Diffusion 3.5** and **Flux.1**
