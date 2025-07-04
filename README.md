@@ -43,36 +43,36 @@ Alternatively, try the generator through:
 
 | Model                | Result             |
 | -------------------- | ------------------ |
-| Flux                 | ![](img/flux3.png) |
-| Stable Diffusion 3.5 | ![](img/sd3.png)   |
+| Flux                 | ![](img/flux3.jpg) |
+| Stable Diffusion 3.5 | ![](img/sd3.jpg)   |
 
 **Prompt**: `by peter mohrbacher,  hdr, Sunsets, artstation, 4k 3d, by wayne barlowe,  rossdraws global illumination, terragen, hyper detailed, Animal T-Shirt Design, art by atey ghailan, battle field, epic, art by craig mullins, full hd, by craig mullins, Anime / Manga`
 
 | Model | Result             |
 | ----- | ------------------ |
-| Flux  | ![](img/flux5.png) |
+| Flux  | ![](img/flux5.jpg) |
 
 ##### Version 0.2:
 **Prompt**: `light painting, art by john kenn mortense, baroque, art nouveau, space, neon, telephoto, cyclic, art by lemma guya, radiant light, light nover, vray render, unreal engine, tornadic`
 
 | Model                | Result             |
 | -------------------- | ------------------ |
-| Flux                 | ![](img/flux1.png) |
-| Stable Diffusion 3.5 | ![](img/sd1.png)   |
+| Flux                 | ![](img/flux1.jpg) |
+| Stable Diffusion 3.5 | ![](img/sd1.jpg)   |
 
 **Prompt**: `by atey ghailan, cinematic, radiant light, rose, scrapbooking, by peter mohrbacher,  12-bit, flowers, postage stamp, post-apocalypse, character design, art by john Constable, fanbox`
 
 | Model                | Result             |
 | -------------------- | ------------------ |
-| Flux                 | ![](img/flux2.png) |
-| Stable Diffusion 3.5 | ![](img/sd2.png)   |
+| Flux                 | ![](img/flux2.jpg) |
+| Stable Diffusion 3.5 | ![](img/sd2.jpg)   |
 
 **Prompt**: `fanbox, drawing, 4-bit, wet paint, weta FX, by wlop, art by Ko Young Hoon, art by craig mullins, beautiful lighting, by hajime sorayama,  Octal, puffy paint, volumetric lighting, art by atey ghailan, tones of black, by Ralph Steadman, logo`
 
 | Model                | Result             |
 | -------------------- | ------------------ |
-| Flux                 | ![](img/flux4.png) |
-| Stable Diffusion 3.4 | ![](img/sd4.png)   |
+| Flux                 | ![](img/flux4.jpg) |
+| Stable Diffusion 3.4 | ![](img/sd4.jpg)   |
 
 For more examples, follow us on:
 - [Instagram](https://www.instagram.com/wine_ineff)
